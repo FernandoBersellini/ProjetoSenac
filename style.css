@@ -1,3 +1,5 @@
+/* ---- Header ---- */
+
 header{
     background: linear-gradient(rgb(153, 102, 255),rgb(0, 172, 230));
     display: flex;
@@ -108,11 +110,7 @@ footer figure img {
     max-height: 30%
 }
 
-footer h1 {
-    font-size: 30px;
-    font-weight: bold;
-    margin-left: 10px;
-}
+/* ---- Produtos ---- */
 
 .produto {
     display: flex;
@@ -120,7 +118,7 @@ footer h1 {
     justify-content: space-around;
     margin-bottom: 50px;
     padding-bottom: 30px;
-    border-bottom: 15px solid #9400D3;
+    border-bottom: 5px solid #9400D3;
 }
 
 .produto article {
@@ -156,6 +154,8 @@ footer h1 {
     height: 250px;
     width: 250px;
 }
+
+/* ----- Contato ----- */
 
 .mapa {
     display: flex;
