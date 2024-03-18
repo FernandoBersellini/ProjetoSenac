@@ -93,23 +93,6 @@ header nav a:hover{
     margin-left: 50px;
 }
 
-footer{
-    margin-top: 100px;
-    background-color: rgb(153, 102, 255);
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.logoFooter {
-    text-align: center;
-}
-
-footer figure img {
-    max-width: 30%;
-    max-height: 30%
-}
-
 /* ---- Produtos ---- */
 
 .produto {
@@ -157,6 +140,11 @@ footer figure img {
 
 /* ----- Contato ----- */
 
+.contato {
+    display: flex;
+    justify-content: space-around;
+}
+
 .mapa {
     display: flex;
     flex-direction: column;
@@ -194,6 +182,7 @@ footer figure img {
 }
 
 .informacoes input {
+    width: 150px;
     height: 30px;
     border-radius: 10px;
     border-style: solid black;
@@ -209,4 +198,20 @@ footer figure img {
     font-weight: bold;
     border-radius: 15px;
     border-style: none;
+}
+
+/* ---- Footer ---- */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    background-color: rgb(153, 102, 255);
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
 }
